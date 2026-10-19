@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <pico/stdlib.h>
 
+#include "lab5_include.h"
+
+
 int main(void)
 {
     int toggle = 0;
@@ -12,6 +15,6 @@ int main(void)
     while (true) {
         toggle = !toggle;
         gpio_put(OUT_PIN, toggle);
-        sleep_ms(DELAY_MS);
+        sleep_ms(DELAY_MS); // 1000/delay ms = hz --> delay = 10ms
     }
 }

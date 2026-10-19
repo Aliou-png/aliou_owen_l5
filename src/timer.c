@@ -2,6 +2,8 @@
 #include <pico/stdlib.h>
 #include <pico/sync.h>
 
+#include "lab5_include.h"
+
 int toggle = 1;
 bool timer_callback(__unused struct repeating_timer *t)
 {

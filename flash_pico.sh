@@ -25,7 +25,7 @@ sleep 1
 echo "after sleep"
 
 # Flash the compiled ELF file onto the Pico
-picotool load -f ./build/test/mytest.elf
+picotool load -f ./src/
 
 # Reboot the Pico to start running the newly flashed program
 picotool reboot -f

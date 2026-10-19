@@ -3,6 +3,8 @@
 #include <FreeRTOS.h>
 #include <task.h>
 
+#include "lab5_include.h"
+
 void main_task(__unused void *params)
 {
     int toggle = 0;

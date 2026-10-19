@@ -14,3 +14,9 @@
 	path = lib/unity
 	url = git@github.com:ThrowTheSwitch/Unity.git
     ignore = dirty
+[submodule "lib/lib/unity"]
+	path = lib/lib/unity
+	url = git@github.com:ThrowTheSwitch/Unity.git
+[submodule "lib/unity"]
+	path = lib/unity
+	url = git@github.com:ThrowTheSwitch/Unity.git
